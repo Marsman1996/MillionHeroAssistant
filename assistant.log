@@ -1,0 +1,48 @@
+2018-01-24 22:08:18,492 - ERROR - tile cannot extend outside image
+Traceback (most recent call last):
+  File "C:\Anaconda3\lib\site-packages\PIL\ImageFile.py", line 482, in _save
+    fh = fp.fileno()
+AttributeError: '_idat' object has no attribute 'fileno'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 236, in main
+    __inner_job()
+  File "main.py", line 192, in __inner_job
+    crop_area=crop_areas[game_type]
+  File "G:\vscode\MillionHeroAssistant\core\android.py", line 76, in analyze_current_screen_text
+    save_text_area, compress_level, crop_area)
+  File "G:\vscode\MillionHeroAssistant\core\android.py", line 186, in parse_answer_area
+    region.save(text_area_file)
+  File "C:\Anaconda3\lib\site-packages\PIL\Image.py", line 1930, in save
+    save_handler(self, fp, filename)
+  File "C:\Anaconda3\lib\site-packages\PIL\PngImagePlugin.py", line 821, in _save
+    [("zip", (0, 0)+im.size, 0, rawmode)])
+  File "C:\Anaconda3\lib\site-packages\PIL\ImageFile.py", line 490, in _save
+    e.setimage(im.im, b)
+SystemError: tile cannot extend outside image
+2018-01-24 22:08:26,415 - ERROR - tile cannot extend outside image
+Traceback (most recent call last):
+  File "C:\Anaconda3\lib\site-packages\PIL\ImageFile.py", line 482, in _save
+    fh = fp.fileno()
+AttributeError: '_idat' object has no attribute 'fileno'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 236, in main
+    __inner_job()
+  File "main.py", line 192, in __inner_job
+    crop_area=crop_areas[game_type]
+  File "G:\vscode\MillionHeroAssistant\core\android.py", line 76, in analyze_current_screen_text
+    save_text_area, compress_level, crop_area)
+  File "G:\vscode\MillionHeroAssistant\core\android.py", line 186, in parse_answer_area
+    region.save(text_area_file)
+  File "C:\Anaconda3\lib\site-packages\PIL\Image.py", line 1930, in save
+    save_handler(self, fp, filename)
+  File "C:\Anaconda3\lib\site-packages\PIL\PngImagePlugin.py", line 821, in _save
+    [("zip", (0, 0)+im.size, 0, rawmode)])
+  File "C:\Anaconda3\lib\site-packages\PIL\ImageFile.py", line 490, in _save
+    e.setimage(im.im, b)
+SystemError: tile cannot extend outside image

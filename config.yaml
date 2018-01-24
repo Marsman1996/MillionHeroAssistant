@@ -35,12 +35,17 @@ crop_areas:
       - 0.186
       - 0.926
       - 0.683
+    "Panda":
+      - 0.18
+      - 0.03
+      - 0.44
+      - 0.87
     "自适应": false
 
 ### baidu orc
-app_id: "10712738"
-app_key: "98QhwoCzoZxKoZbX5XWNPld4"
-app_secret: "MGYLv1BeHjWOGFc9IjZPfzuhlPlaBEWA "
+app_id: "10744677"
+app_key: "nB9o5saMMdydUtN9LodN0LB9"
+app_secret: "XvcnZvZ9kGEFRk01RSgQDEZbQanf50GZ  "
 
 ### ocr.space
 api_key: "6c851da45688957"
